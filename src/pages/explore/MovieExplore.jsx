@@ -1,6 +1,8 @@
 
 import './style.scss'
-const Explore = () => {
+
+
+const MovieExplore = () => {
     return (
         <div>
             
@@ -8,4 +10,4 @@ const Explore = () => {
     );
 };
 
-export default Explore;
+export default MovieExplore;

@@ -1,6 +1,8 @@
 
 import './style.scss'
-const Details = () => {
+
+
+const MovieHeader = () => {
     return (
         <div>
             
@@ -8,4 +10,4 @@ const Details = () => {
     );
 };
 
-export default Details;
+export default MovieHeader;

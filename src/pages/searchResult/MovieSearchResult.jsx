@@ -1,6 +1,8 @@
-
 import './style.scss'
-const Header = () => {
+
+
+
+const MovieSearchResult = () => {
     return (
         <div>
             
@@ -8,4 +10,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default MovieSearchResult;

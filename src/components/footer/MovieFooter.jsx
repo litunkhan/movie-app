@@ -1,6 +1,8 @@
 
 import './style.scss'
-const Footer = () => {
+
+
+const MovieFooter = () => {
     return (
         <div>
             
@@ -8,4 +10,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+export default MovieFooter;

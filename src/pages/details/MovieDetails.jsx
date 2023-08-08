@@ -1,6 +1,8 @@
+
 import './style.scss'
 
-const PageNotFound = () => {
+
+const MovieDetails = () => {
     return (
         <div>
             
@@ -8,4 +10,4 @@ const PageNotFound = () => {
     );
 };
 
-export default PageNotFound;
+export default MovieDetails;
