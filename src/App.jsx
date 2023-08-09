@@ -37,7 +37,7 @@ const App = () => {
           <Route path="/explore/:mediaType"element={<MovieExplore/>}/>
           <Route path="*"element={<MoviePageNotFound/>}/>
         </Routes>
-        <MovieFooter/>
+    <MovieFooter/>
    </BrowserRouter>
   );
 };
