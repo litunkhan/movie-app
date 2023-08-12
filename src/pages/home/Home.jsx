@@ -1,6 +1,8 @@
 import useTitle from '../../hooks/useTitle';
 import HeroBanner from './heroBanner/HeroBanner';
+import Popular from './popular/Popular';
 import './style.scss'
+import TopRated from './toprated/TopRated';
 import Trending from './trending/Trending';
 
 const Home = () => {
@@ -9,7 +11,9 @@ const Home = () => {
         <div className='homepage'>
            <HeroBanner></HeroBanner> 
            <Trending></Trending>
-           {/* <div style={{height:'1000px'}}></div> */}
+           <Popular></Popular>
+           <TopRated></TopRated>
+           
         </div>
     );
 };
