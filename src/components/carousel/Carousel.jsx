@@ -5,7 +5,7 @@ import {
     BsFillArrowLeftCircleFill,
     BsFillArrowRightCircleFill,
 } from "react-icons/bs";
-import { useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import dayjs from "dayjs";
 
@@ -58,6 +58,7 @@ const Carousel = ({ data, loading, endpoint, title }) => {
     return <div className="carousel"> 
 
            <ContentWrapper>
+            {title && <div className="carouselTitle"> {title}</div>}
            <BsFillArrowLeftCircleFill
                     className="carouselLeftNav arrow"
                     onClick={() => navigation("left")}
@@ -70,8 +71,14 @@ const Carousel = ({ data, loading, endpoint, title }) => {
                     {data?.map(item=>{
                         const posterUrl = item.poster_path? url.poster+item.poster_path:PosterFallback
                         return (
-                            <div key={item.id} className="carouselItem" onClick={()=>{
-                                navigate(`/${item.media_type || endpoint}/${item.id}`)
+                            
+                            <div key={item.id} className="carouselItem"   onClick={()=>{
+                                navigate(
+                                    `/${item.media_type || endpoint}/${
+                                        item.id
+                                    }`
+                                )
+                                
                             }} >
                                 <div className="posterBlock">
                                     <Img src={posterUrl}></Img>
@@ -85,6 +92,7 @@ const Carousel = ({ data, loading, endpoint, title }) => {
                                     }</span>
                                 </div>
                             </div>
+                           
                         )
                     })}
                 </div>:
