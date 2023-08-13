@@ -152,7 +152,7 @@ const DetailsBanner = ({video,crew}) => {
                                                     return <span key={i}>
                                                      
                                                         {d.name}
-                                                        {writer.length -1 !== i && ", "}
+                                                        {writer?.length -1 !== i && ", "}
                                                      </span>
                                                     
                                                 })}
@@ -171,7 +171,7 @@ const DetailsBanner = ({video,crew}) => {
                                                     return <span key={i}>
                                                      
                                                         {d.name}
-                                                        {writer.length -1 !== i && ", "}
+                                                        {data?.created_by?.length -1 !== i && ", "}
                                                      </span>
                                                     
                                                 })}
