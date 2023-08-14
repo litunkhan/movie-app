@@ -34,9 +34,9 @@ const Cast = ({ data, loading }) => {
                                     <div className="profileImg">
                                         <Img src={imgUrl} />
                                     </div>
-                                    <div className="name">{item.name}</div>
+                                    <div className="name">{item?.name}</div>
                                     <div className="character">
-                                        {item.character}
+                                        {item?.character}
                                     </div>
                                 </div>
                             );
