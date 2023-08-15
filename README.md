@@ -1,8 +1,15 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Movie-x
 
-Currently, two official plugins are available:
+This is a Fronend project using react and redux called movie-x
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- we have header you can see movie and tv show when you click you will navigate all movie and all tv shows and we also used infinite scrooling.
+- I focused on designing an intuitive user experience in home page we have multiple section.
+- we have a hero banner and serachbar where you can serach any movies and tv shows.
+- And under that we have a tranding movie section use carouser and also tabs its day and week you can filter them by swctching tabs also popular section and top rated all data commig from tmdb movie api.
+-The last when you click any movie or tv shows you can see that movie details and also you can see all videos.
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://vermillion-lily-8d33d6.netlify.app)
+
+
